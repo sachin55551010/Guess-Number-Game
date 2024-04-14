@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  justify-content: center;
+}
+
+.game-title, .rule-box, .game-play-container, .result-container {
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.447);
+  /* background-color: rgb(38, 38, 38); */
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Number</title>
+  <link rel="stylesheet" href="styles/universal.css">
+  <link rel="stylesheet" href="styles/gameplay.css">
+  <link rel="stylesheet" href="styles/rules.css">
+  <link rel="stylesheet" href="styles/title.css">
+  <link rel="stylesheet" href="styles/main-container.css">
+  <link rel="stylesheet" href="styles/results.css">
+</head>
+
+<body>
+  <div class="main-container">
+
+    <div class="game-title">
+      <p class="title">
+        Guess The Number
+      </p>
+    </div>
+
+    <div class="rule-box">
+      <div class="rules">
+        <p class="rule-title">
+          Rules :-
+        </p>
+      </div>
+      <ol>
+        <p>You Can enter Number Between 1-100</p>
+      </ol>
+      <ol>
+        <p>You Have Only 10 Try</p>
+      </ol>
+      <ol>
+        <p>you will get hint eveytime after Guess</p>
+      </ol>
+    </div>
+
+    <div class="game-play-container">
+
+      <div class="input-field-container">
+
+        <!-- <div class="label">
+          <label for="enter-num"></label>Enter Number :
+        </div> -->
+
+        <div class="input-field">
+          <input class="enter-number js-input-field" type="number" placeholder="Enter Number" id="enter-num">
+        </div>
+
+        <div class="submit-button">
+          <button class="submit-btn js-submit-button">
+            Submit
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="result-container">
+
+      <div class="guess-box">
+
+        <div class="previous-guesses">
+          <p>Previous guess : <span class="guess"></span></p>
+          
+        </div>
+
+          <div class="guess-numbers"></div>
+      </div>
+
+      <div class="result-info">
+
+        
+        
+        <div class="remaining-guesses">Remaining Guesses : <span class="remaining-guess-count">10</span></div>
+        <div class="result"></div>
+      </div>
+
+      <div class="start-game-button">
+        <button class="start-game">
+          Start Again
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
